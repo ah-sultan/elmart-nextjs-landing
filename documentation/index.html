@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+
+    <title>Documentation for Elmart - eCommerce Next Js Template</title>
+
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="icon" type="image/x-icon" href="./images/favicon.png">
+    <link rel="apple-touch-icon" href="./images/icon.png">
+</head>
+
+<body>
+    <div class="page-wrapper">
+        <div id="sidebar">
+            <div class="button-container"><img class="mobile-menu-close" src="images/close.png"></div>
+            <div class="menu-box">
+                <br>
+                <div class="logo text-right"><img src="images/logo/logo.png" alt="Logo"></div>
+                <nav class="sticky-menu">
+                    <ul>
+                        <li class="current">
+                            <a href="#introduction">Introduction <span class="fa fa-arrow-right"></span></a>
+                        </li>
+                        <li>
+                            <a href="#installation">Installation <span class="fa fa-arrow-right"></span></a>
+                        </li>
+                        <li><a href="#icon">Favicon & Logo <span class="fa fa-arrow-right"></span></a></li>
+                        <li><a href="#folder-structure">Folder Structure <span class="fa fa-arrow-right"></span></a>
+                        </li>
+                        <li><a href="#jsx-structure">JSX Files Structure <span class="fa fa-arrow-right"></span></a>
+                        </li>
+                        <li><a href="#header-footer">Header & Footer <span class="fa fa-arrow-right"></span></a></li>
+                        <li><a href="#sources-credits">Sources and Credits <span class="fa fa-arrow-right"></span></a>
+                        </li>
+                        <li><a href="#support">Support <span class="fa fa-arrow-right"></span></a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="copyright">Copyright &copy; <a target="_blank" href="./index.html">Elmart</a>
+                <script>document.write(new Date().getFullYear())</script>
+            </div>
+        </div>
+
+        <div id="content-section">
+            <!--Introduction Section-->
+            <section class="section introduction" id="introduction">
+                <div class="button-container"><img class="mobile-menu-icon" src="images/menu.png"></div>
+                <div class="sec-title">
+                    <span class="icon fa fa-windows"></span>
+                    <h2>Intoduction</h2>
+                </div>
+                <br>
+                <div class="sec-content">
+                    <h2>Elmart</h2>
+                    <h3>Ecommerce Next Js Template</h3>
+                    <div class="separator"></div>
+                    <strong>Created:</strong> 28 December 2023<br>
+                    <strong>By:</strong> Shomirul Islam Bonny<br>
+                    <br>
+                    <p>Thank you for purchasing <strong>Elmart - eCommerce Next Js Template</strong>. If you have any
+                        questions that are beyond the scope of this help file, please feel free to contact us.
+                </div>
+            </section>
+
+            <!-- Installation -->
+            <section class="section icon" id="installation">
+                <div class="sec-title">
+                    <span class="icon fa fa-paragraph"></span>
+                    <h2>Installation</h2>
+                </div>
+                <br>
+                <div class="sec-content">
+                    <ul>
+                        <li>
+                            <strong>Recommended: </strong><br>
+                            <span>
+                                Make sure you have <strong>Node.js</strong> installed on your computer. We recommend
+                                <strong>version 18.17 or
+                                    later.</strong> If you don't have it yet, you can download and install it from the
+                                official
+                                <a href="https://nodejs.org/en" target="_blank">Node.js </a> website
+                            </span>
+                        </li>
+                        <li>
+                            Use command line <strong>(powershell or terminal)</strong> to navigate to project root
+                            directory.
+                        </li>
+                        <li>
+                            <strong> Install dependencies:</strong> <br>
+                            Run the following command to download and install the necessary packages for your project:
+                            <div class="sec-title"
+                                style="margin-top: 10px; width: 400px; border-radius: 3px; padding: 20px; font-weight: 500;">
+                                npm install
+                            </div>
+                        </li>
+                        <li>
+                            <strong>Run the project in development mode:</strong> <br>
+                            Once the installation is complete, use the following command to start your project in
+                            development mode and Open <a href="http://localhost:3000"
+                                target="_blank">http://localhost:3000</a> with your browser to see the result
+                            <div class="sec-title"
+                                style="margin-top: 10px; width: 400px; border-radius: 3px; padding: 20px; font-weight: 500;">
+                                npm run dev
+                            </div>
+                        </li>
+                        <li>
+                            Know more about Next Js Project Deployment Please <a target="_blank"
+                                href="https://nextjs.org/docs/app/building-your-application/deploying">Click here</a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <!--Favicon Section-->
+            <section class="section icon" id="icon">
+                <div class="sec-title">
+                    <span class="icon fa fa-paragraph"></span>
+                    <h2>Favicon & Logo</h2>
+                </div>
+                <br>
+                <div class="sec-content">
+                    <ul>
+                        <li> <strong>Favicon</strong><br>
+                            Replace the favicon.ico with the .ico file that you created for your website. Favicon.ico is
+                            located in the <strong>./src/app</strong> folder, located at the root folder.
+                        </li>
+                        <li><strong>logo</strong> <br>
+                            To change the logo, follow the directory <strong>"./public/image/logo/"</strong> and replace
+                            the
+                            <strong>logo.png</strong> with your amazing brand logo.
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- FOlder Structure-->
+            <section class="section html-structure" id="folder-structure">
+                <div class="sec-title">
+                    <span class="icon fa fa-th-large"></span>
+                    <h2>Folder Structure</h2>
+                </div>
+                <br>
+                <div class="sec-content">
+
+                    <img src="./images/folder-structure.png" alt="folder-structure">
+                </div>
+            </section>
+
+            <!--JSX Structure-->
+            <section class="section css-structure" id="jsx-structure">
+                <div class="sec-title">
+                    <span class="icon fa fa-at"></span>
+                    <h2>JSX Files Structure</h2>
+                </div>
+                <br>
+                <div class="sec-content">
+                    <img src="./images/jsx-structure.png" alt="jsx-structure">
+                </div>
+            </section>
+
+            <!--Header and Footer-->
+            <section class="section javascript" id="header-footer">
+                <div class="sec-title">
+                    <span class="icon fa fa-code"></span>
+                    <h2>Header And Footer</h2>
+                </div>
+                <br>
+                <div class="sec-content">
+                    <p>Header and Footer is following Directory <strong>./src/Component/Shared</strong></p>
+                    <p>Example Image: </p>
+                    <img src="./images/header-footer.png" alt="header-footer">
+                </div>
+            </section>
+
+            <!--Sources and Credits-->
+            <section class="section sources-credits" id="sources-credits">
+                <div class="sec-title">
+                    <span class="icon fa fa-credit-card"></span>
+                    <h2>Sources and Credits</h2>
+                </div>
+                <br>
+                <div class="sec-content">
+                    <h3>Fonts Used in the template are "Google Fonts"</h3>
+                    <p><strong>Fonts Used are:</strong></p>
+                    <ul class="list-m-0">
+                        <li>Josefin Sans</li>
+                        <li>Jost</li>
+                        <li>Poppins</li>
+                        <li>DM Sans</li>
+                    </ul>
+                    <br>
+                    <p><strong>Dependencies used are:</strong></p>
+                    <ul class="list-m-0">
+                        <li>Swiper JS</li>
+                        <li>React Counter Up</li>
+                        <li>apexcharts</li>
+                        <li>isotope js</li>
+                        <li>React Bootstrap</li>
+                        <li>React Modal Video</li>
+                    </ul>
+                    <br>
+                    Every Code is properly commented for Editing Ease.
+                    <br><br>
+                    <p><strong> Icons Used are:</strong></p>
+                    <br>
+                    <p>Fontawsome 6 Icons<br><a href="https://fontawesome.com/" rel="nofollow noreferrer"
+                            target="_blank">https://fontawesome.com/</a></p>
+                    <br>
+                    <p><strong> Images Used are:</strong></p>
+                    <br>
+                    <p>Freepik<br><a href="https://www.freepik.com/" rel="nofollow noreferrer"
+                            target="_blank">https://www.freepik.com/</a></p>
+                    <br>
+                    <p><strong> Illustrations Used from:</strong></p>
+                    <ul>
+                        <li>Cool Backgrounds</li>
+                    </ul>
+                </div>
+
+            </section>
+
+            <!--Support-->
+            <section class="section support" id="support">
+                <div class="sec-title">
+                    <span class="icon fa fa-support"></span>
+                    <h2>Support</h2>
+                </div>
+                <br>
+                <div class="sec-content">
+                    <h3>Once again, thank you so much for purchasing this theme. As we said at the beginning, We'd be
+                        glad to help you if you have any questions relating to this theme. If you have any questions,
+                        please feel free to contact us at Support Center.</h3>
+                    <br>
+                    <a target="_blank" href="../index.html"><button>Go to Homepage</button></a>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <!--JS Scripts-->
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.nav.js"></script>
+    <script src="js/jquery.scrollTo.js"></script>
+    <script src="js/scrollbar.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
